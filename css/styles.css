@@ -1,0 +1,149 @@
+body {
+    background-color: #c7deff; 
+}
+
+
+body, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: #b8b8ff;
+    padding: 1em 0;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+p, a {
+    padding: 1.6em 0;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+header {
+    height: 6rem;
+    background-color: #dcffde;
+}
+
+footer {
+    background-color: #85d282;
+    color: #fff;
+}
+
+footer p {
+    padding: 0.8rem 0;
+}
+
+.site-logo {
+    width: 6em;
+    margin: 1em 0;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+header .wrapper  {
+    display:flex;
+    flex-direction: column;
+}
+
+#main-content .wrapper {
+    min-height: calc(93vh - 10.5em);
+    background-color: #F3F5F9;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+
+}
+.main-image{
+    width: 20em;
+}
+.welcome-img {
+
+    margin: 10px;
+    padding: 10px;
+}
+.welcome-text h1 {
+
+    margin: 10px;
+    padding: 10px;
+}
+.welcome-text p { 
+
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.main p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #25255F;
+
+}
+
+#main-content h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.welcome-text .right {
+
+    padding: 0 20%;
+    font-family: "Nothing You Could Do", cursive;
+}
+
+
+
+#nav .main-nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+
+
+}
+.main-nav .nav-div {
+    padding: 0 1em;
+    margin: 2em;
+    border-radius: 12em;
+    background-color: #b8b8ffac;
+
+}
+.nav-div a {
+    text-decoration: none;
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+a:link {
+    color: hotpink;
+}
+
+a:visited{
+    color: rgb(242, 0, 255);
+}
+a:hover{
+    color: #85d282;
+}
+a:active{
+    color: green;
+}
+
